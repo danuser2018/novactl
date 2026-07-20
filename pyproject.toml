@@ -9,7 +9,7 @@ description = "Nova ecosystem Command Line Interface"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "nova-event-bus",
+    "nova-event-bus @ git+https://github.com/danuser2018/nova-event-bus.git@1.1.0",
 ]
 
 [project.scripts]

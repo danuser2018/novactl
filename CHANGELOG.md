@@ -36,6 +36,10 @@ Los cambios se agrupan en las siguientes categorías:
 - Fichero `CHANGELOG.md` con el formato Keep a Changelog v1.1.0 en castellano.
 - Configuración del agente de IA mediante el directorio `.agent` y el enlace simbólico a las skills compartidas del ecosistema.
 
+### Corregido
+
+- Especificación de la dependencia `nova-event-bus` con URL de Git (`nova-event-bus @ git+https://github.com/danuser2018/nova-event-bus.git@1.1.0`) en `pyproject.toml` para resolver la instalación de la librería local en los workflows de CI/CD.
+
 ---
 
 <!-- Plantilla para nuevas versiones:
