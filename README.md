@@ -1,0 +1,2 @@
+# novactl
+CLI para nova
